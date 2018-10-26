@@ -1,12 +1,15 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    /*padding-left: 100px;
+    padding-right: 100px;*/
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -22,3 +25,56 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+
+
+
+
+
+/* login css area */
+
+.body-contentL {
+    text-align: center;
+    border-radius: 1%;
+    border: 1px groove gray;
+    height: 520px;
+    width: 325px;
+    margin: auto;
+    background-color: hsla(112, 8%, 44%, 0.19);    
+}
+
+.loginf {
+    text-align: center;
+    align-content: center;
+    margin: auto;    
+}
+
+.loginfo {
+    padding-left: 47px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.enterboxes {
+    padding-left: 53px;
+}
+
+.loginbut {
+    padding-left: 113px;
+}
+.checkboxl {
+    padding-left: 53px;
+}
+.checkboxtext {
+    padding-left: 60px;
+}
+
+.logback {
+    /*background-image: url("paper.gif");*/
+    /*background-color: hsla(240, 67%, 46%, 0.46);*/
+}
+
+
+
+
