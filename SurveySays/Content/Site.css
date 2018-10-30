@@ -1,15 +1,18 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-
+   
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    margin: auto;
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     /*padding-left: 100px;
     padding-right: 100px;*/
+    width: 70%;
+    border-left: 1px black groove;
+    border-right: 1px black groove;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -26,7 +29,24 @@ textarea {
     max-width: 280px;
 }
 
+/*footer*/
+.footer {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    background-color: black;
+}
 
+.footerlinks {
+    text-align: center;
+    margin: auto;
+}
+
+.header {
+    margin: auto;
+    width: 70%;
+    background-color: black;
+}
 
 
 
@@ -47,7 +67,8 @@ textarea {
 .loginf {
     text-align: center;
     align-content: center;
-    margin: auto;    
+    margin: auto;
+    
 }
 
 .loginfo {
@@ -71,6 +92,7 @@ textarea {
 }
 
 .logback {
+    padding-top: 90px;
     /*background-image: url("paper.gif");*/
     /*background-color: hsla(240, 67%, 46%, 0.46);*/
 }

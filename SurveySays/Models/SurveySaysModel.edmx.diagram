@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e4e90ab02952486f9112136180a62d49" Name="Diagram1">
+        <EntityTypeShape EntityType="SurveySaysDBModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.AspNetRole" Width="1.5" PointX="0.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.AspNetUserClaim" Width="1.5" PointX="4.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.AspNetUserLogin" Width="1.5" PointX="4.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.AspNetUser" Width="1.5" PointX="2.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.Survey" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.SurveyMAA" Width="1.5" PointX="10.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.SurveyMAQ" Width="1.5" PointX="7.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.SurveyMCA" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.SurveyMCQ" Width="1.5" PointX="7.5" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.SurveyQuestion" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.SurveyResponse" Width="1.5" PointX="8.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.SurveySAA" Width="1.5" PointX="10.5" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.Tag" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.TagSurvey" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.TypeEnum" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.User" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_Survey_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyQuestion_Survey" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyResponse_Survey" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_TagSurvey_Survey" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyMAA_SurveyQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyMAA_SurveyResponse" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyMAQ_SurveyQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyMCAnswer_SurveyQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyMCAnswer_SurveyResponse" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyQuestionMCChoice_SurveyQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyQuestion_TypeEnum" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveySAAnswer_SurveyQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveyResponse_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_SurveySAAnswer_SurveyResponse" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.FK_TagSurvey_Tag" ManuallyRouted="false" />
+        <AssociationConnector Association="SurveySaysDBModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

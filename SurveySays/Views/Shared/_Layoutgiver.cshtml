@@ -9,8 +9,7 @@
 
 </head>
 <body>
-    <div class="logback">
-        
+    <div class="header">
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -31,17 +30,32 @@
                 </div>
             </div>
         </div>
-        
-
-        <div class="container body-contentL">
-            @RenderBody()
-            <hr />
-
-        </div>
-
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)
     </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+    <div class="footer">
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Survey Says</p>
+
+                    
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <div class="footerlinks">
+                                <li>@Html.ActionLink("About", "About", "Home")</li>
+                                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            </div>
+                        </ul>
+
+                   
+                
+            </div>
+            @*<p>&copy; @DateTime.Now.Year - Survey Says</p>*@
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 </html>
