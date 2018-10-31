@@ -15,8 +15,11 @@ namespace SurveySays
         public void ConfigureAuth(IAppBuilder app)
         {
             // Configure the db context, user manager and signin manager to use a single instance per request
+            //Located In ../Models/IdentityModels.cs
             app.CreatePerOwinContext(ApplicationDbContext.Create);
+            //Located In ../App_Start/IdentityConfig.cs
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
+            //Located In ../App_Start/IdentityConfig.cs
             app.CreatePerOwinContext<ApplicationSignInManager>(ApplicationSignInManager.Create);
 
             // Enable the application to use a cookie to store information for the signed in user
