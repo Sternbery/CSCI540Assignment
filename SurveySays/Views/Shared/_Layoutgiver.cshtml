@@ -36,14 +36,20 @@
         <hr />
     </div>
     <div class="footer">
-        <footer>                   
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Survey Says</p>
 
+                    
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
                             <div class="footerlinks">
-                                @Html.ActionLink("About", "About", "Home")
-                                @Html.ActionLink("Contact", "Contact", "Home")
+                                <li>@Html.ActionLink("About", "About", "Home")</li>
+                                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                             </div>
-                       
-                        <p>&copy; @DateTime.Now.Year - Survey Says</p>
+                        </ul>
+
+                   
+                
             </div>
             @*<p>&copy; @DateTime.Now.Year - Survey Says</p>*@
         </footer>
