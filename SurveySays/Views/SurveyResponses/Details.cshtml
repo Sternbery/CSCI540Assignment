@@ -1,0 +1,50 @@
+﻿@model SurveySays.Models.SurveyResponse
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SurveyResponse</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateTaken)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateTaken)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TakerCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TakerCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Survey.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Survey.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ResponseID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

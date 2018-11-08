@@ -4,9 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="e4e90ab02952486f9112136180a62d49" Name="Diagram1">
+      <Diagram DiagramId="e4e90ab02952486f9112136180a62d49" Name="Diagram1" ZoomLevel="85">
         <EntityTypeShape EntityType="SurveySaysDBModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SurveySaysDBModel.AspNetRole" Width="1.5" PointX="0.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SurveySaysDBModel.AspNetRole" Width="1.5" PointX="0.5" PointY="1.625" IsExpanded="true" />
         <EntityTypeShape EntityType="SurveySaysDBModel.AspNetUserClaim" Width="1.5" PointX="4.5" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SurveySaysDBModel.AspNetUserLogin" Width="1.5" PointX="4.5" PointY="3.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SurveySaysDBModel.AspNetUser" Width="1.5" PointX="2.5" PointY="1.125" IsExpanded="true" />
