@@ -183,3 +183,29 @@ textarea {
     text-align: center;
 
 }
+.questions{
+    padding: 5px;
+}
+
+
+/*PP area*/
+.PP{
+    margin: auto;
+    text-align: center;
+}
+
+/*About area*/
+.About {
+    margin: auto;
+    text-align: center;
+}
+
+
+/*CONTACT*/
+.msgBox{
+    padding-left: 80px;
+}
+
+.sendbut{
+    padding-right: 180px;
+}
